@@ -1,6 +1,7 @@
 # CLIProxyAPI 部署套件
 
 魔改CPA，解放你的辣鸡VPS，codex专用！
+**https://github.com/liuzhenhonghhhhh/chatgpt-auto-CPA-Reg** 适配注册机，永动循环吧！
 
 ## 项目简介
 
