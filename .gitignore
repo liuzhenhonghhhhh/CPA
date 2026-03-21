@@ -1,0 +1,72 @@
+# Binaries
+cli-proxy-api
+CLIProxyAPI
+CLIProxyAPI-*
+cliproxyapi-*
+*.exe
+*.zip
+
+# Configuration (contains secrets)
+config.yaml
+.env
+connection.json
+
+# Generated content
+bin/*
+logs/*
+conv/*
+temp/*
+refs/*
+
+# Storage backends
+pgstore/*
+gitstore/*
+objectstore/*
+
+# Static assets
+static/*
+
+# Authentication data
+auths/*
+!auths/.gitkeep
+
+# Token files
+tokens/*
+
+# Documentation (auto-generated)
+docs/*
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Tooling metadata
+.vscode/*
+.codex/*
+.claude/*
+.gemini/*
+.serena/*
+.agent/*
+.agents/*
+.opencode/*
+.idea/*
+.bmad/*
+_bmad/*
+_bmad-output/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
